@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex lg:flex-row flex-col items-center gap-12">
             <div className="flex-1 space-y-6 text-center lg:text-left">
               <h1 className="font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight animate-fade-in">
-                Hi, I'm <span className="text-primary">Jeeththenthar LA</span>
+                Hi, I&apos;m <span className="text-primary">Jeeththenthar LA</span>
                 <br />
                 <span className="bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 text-transparent">
                   Full Stack Developer
@@ -221,7 +221,7 @@ export default function Home() {
       {/* Contact Form */}
       <section id="contact" className="bg-primary/5 py-20">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-          <h2 className="mb-12 font-bold text-3xl text-center">Let's Connect</h2>
+          <h2 className="mb-12 font-bold text-3xl text-center">Let&apos;s Connect</h2>
           <ContactForm />
         </div>
       </section>
