@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'John Doe - Full Stack Developer',
-  description: 'Portfolio website showcasing my work and experience as a Full Stack Developer',
+  title: 'Jeethu LA',
+  description: 'You are checking out Jeethu LA\'s portfolio',
 };
 
 export default function RootLayout({
@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/017/681/306/non_2x/letter-j-crown-logo-for-beauty-fashion-star-elegant-luxury-sign-vector.jpg" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
