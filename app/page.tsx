@@ -221,7 +221,7 @@ export default function Home() {
       {/* Contact Form */}
       <section id="contact" className="bg-primary/5 py-20">
         <div className="mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl">
-          <h2 className="mb-12 font-bold text-3xl text-center">Let&apos;s Connect</h2>
+          {/* <h2 className="mb-12 font-bold text-3xl text-center">Let&apos;s Connect</h2> */}
           <ContactForm />
         </div>
       </section>
