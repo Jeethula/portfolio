@@ -27,7 +27,7 @@ export default function Home() {
                 Hi, I&apos;m <span className="text-primary">Jeeththenthar LA</span>
                 <br />
                 <span className="bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500 text-transparent">
-                  Full Stack Developer
+                  Product Engineer
                 </span>
               </h1>
               <p className="mx-auto lg:mx-0 max-w-2xl text-lg text-muted-foreground sm:text-xl animate-fade-in-delay">
@@ -158,7 +158,7 @@ export default function Home() {
           <div className="items-center gap-12 grid lg:grid-cols-2">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground">
-              As a Full Stack Developer passionate about crafting innovative solutions, I bring ideas to life through clean code and intuitive design. When I’m not coding, youll find me following football and cricket, exploring new destinations, or enjoying great music
+              As a Product engineer passionate about crafting innovative solutions, I bring ideas to life through clean code and intuitive design. When I’m not coding, youll find me following football and cricket, exploring new destinations, or enjoying great music
               </p>
               <div className="gap-6 grid grid-cols-2">
                 <div className="space-y-2">
@@ -231,27 +231,27 @@ export default function Home() {
 
 const projects = [
   {
+    title: "Analysedb",
+    description: "Natural language engine that transforms databases into actionable business intelligence.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop", // Reusing a relevant image from the original set
+    technologies: ["NLP", "Multi-LLM Intelligence", "Data Visualization", "SQL Generation", "Database Governance"],
+    demo: "https://www.analysedb.live/",
+    github: "https://www.analysedb.live/" // As requested, using the demo link for GitHub
+  },
+  {
+    title: "UniOps",
+    description: "A comprehensive platform for managing university operations",
+    image: "https://cdn.prod.website-files.com/5fae79706d8334674145afcd/60d0f632e466177e8a213c55_Student-App-Feature-2.png",
+    technologies: ["Nextjs", "Websocket", "MongoDB", "prisma", "clerk"],
+    demo: "https://www.mithreshvar.tech",
+    github: "https://github.com/jeethula"
+  },
+  {
     title: "Weather prediction using AI",
     description: "A machine learning model to predict weather using historical data",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
     technologies: ["Next.js", "TensorFlow.js", "GraphQL", "AWS"],
     demo: "https://weather-steel-mu.vercel.app",
     github: "https://github.com/jeethula/"
-  },
-  {
-    title: "Personal Blog",
-    description: "A platform where anyone can share their thoughts and ideas in Anonymity",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop",
-    technologies: ["Next.js", "Postgres", "Drizzle", "Nest.js server actions"],
-    demo: "https://blog.jeethu.me",
-    github: "https://github.com/Jeethula/PersonalBlog"
-  },
-  {
-    title: "UniOps",
-    description: "A comprehensive platform for managing university operations",
-    image: "https://cdn.prod.website-files.com/5fae79706d8334674145afcd/60d0f632e466177e8a213c55_Student-App-Feature-2.png",
-    technologies: ["Nextjs", "Websocket", "MongoDB", "prisma","clerk"],
-    demo: "https://www.mithreshvar.tech",
-    github: "https://github.com/jeethula"
   }
 ];
