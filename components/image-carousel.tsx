@@ -6,20 +6,20 @@ import { cn } from "@/lib/utils";
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1000&auto=format&fit=crop",
-    caption: "Exploring mountains"
+    url: "/image.png",
+    caption: "Memorable times"
   },
   {
-    url: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1000&auto=format&fit=crop",
-    caption: "Music studio session"
+    url: "/image copy.png",
+    caption: "Life experiences"
   },
   {
-    url: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1000&auto=format&fit=crop",
-    caption: "Coffee and code"
+    url: "/image copy 2.png",
+    caption: "Personal moments"
   },
   {
-    url: "https://images.unsplash.com/photo-1543722530-d2c3201371e7?q=80&w=1000&auto=format&fit=crop",
-    caption: "Photography adventures"
+    url: "/image copy 3.png",
+    caption: "Special memories"
   }
 ];
 
