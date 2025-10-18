@@ -35,8 +35,8 @@ export function ContactForm() {
         >
           <h3 className="text-2xl font-bold mb-4">Ready to work together?</h3>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            I'm always excited to discuss new opportunities, collaborate on interesting projects, 
-            or just have a chat about technology and innovation. Let's connect!
+            I&apos;m always excited to discuss new opportunities, collaborate on interesting projects, 
+            or just have a chat about technology and innovation. Let&apos;s connect!
           </p>
         </motion.div>
       </div>

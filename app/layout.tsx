@@ -19,6 +19,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/017/681/306/non_2x/letter-j-crown-logo-for-beauty-fashion-star-elegant-luxury-sign-vector.jpg" />
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="37b2b4f8-a209-432f-8043-4d85c3271cf3"></script>
       </head>
       <body className={inter.className}>
         <ThemeProvider
