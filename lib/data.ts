@@ -59,42 +59,55 @@ export const resources = [
   {
     "name": "GitHub Copilot",
     "short_description": "Free access to Copilot Pro.",
-    "link": "https://github.com/orgs/community/discussions/categories/copilot"
+    "link": "https://github.com/orgs/community/discussions/categories/copilot",
+    "priority": true
   },
   {
     "name": "Namecheap",
     "short_description": "1 year .me domain & SSL certificate free.",
-    "link": "https://www.namecheap.com/support.aspx"
+    "link": "https://www.namecheap.com/support.aspx",
+    "priority": true,
   },
   {
     "name": "DigitalOcean",
     "short_description": "$200 platform credit for 1 year.",
-    "link": "https://www.digitalocean.com/company/contact/"
+    "link": "https://www.digitalocean.com/company/contact/",
   },
   {
     "name": "Name.com",
     "short_description": "Free project domain (25+ TLD options).",
-    "link": "https://www.name.com/support-ticket"
+    "link": "https://www.name.com/support-ticket",
+    "priority": true,
+  },
+  {
+    "name": "Perplexity",
+    "short_description": "1 month free Perplexity Pro + earn up to 24 months through referrals.",
+    "link": "https://plex.it/referrals/780P0SBF",
+    "priority": true,
   },
   {
     "name": "Microsoft Azure",
     "short_description": "25+ Azure services + $100 credit.",
-    "link": "https://azure.microsoft.com/en-us/support/options/"
+    "link": "https://azure.microsoft.com/en-us/support/options/",
+    "priority": true
   },
   {
     "name": "Notion",
     "short_description": "Education plan + AI.",
-    "link": "https://www.notion.so/help"
+    "link": "https://www.notion.so/help",
+    "priority": true
   },
   {
     "name": "JetBrains",
     "short_description": "Free annual subscription to IDEs.",
-    "link": "https://intellij-support.jetbrains.com/hc/en-us"
+    "link": "https://intellij-support.jetbrains.com/hc/en-us",
+    "priority": true
   },
   {
     "name": "GitHub Pro",
     "short_description": "Free GitHub Pro.",
-    "link": "https://github.com/contact"
+    "link": "https://github.com/contact",
+    "priority": true,
   },
   {
     "name": "Codedex",
@@ -104,12 +117,14 @@ export const resources = [
   {
     "name": ".TECH Domain",
     "short_description": "Free standard .TECH domain for 1 year.",
-    "link": "mailto:techsquad@get.tech"
+    "link": "mailto:techsquad@get.tech",
+    "priority": true,
   },
   {
     "name": "Heroku",
     "short_description": "$13/month credit for 24 months.",
-    "link": "https://help.heroku.com/"
+    "link": "https://help.heroku.com/",
+    "priority": true,
   },
   {
     "name": "DataCamp",
@@ -124,17 +139,20 @@ export const resources = [
   {
     "name": "MongoDB",
     "short_description": "$50 in Atlas credits, Compass, Uni cert free.",
-    "link": "https://www.mongodb.com/community/forums/c/academia/students/42"
+    "link": "https://www.mongodb.com/community/forums/c/academia/students/42",
+    "priority": true,
   },
   {
     "name": "VS Code",
     "short_description": "Coding packs for Java, Python, and .NET.",
-    "link": "https://visualstudio.microsoft.com/support/"
+    "link": "https://visualstudio.microsoft.com/support/",
+    "priority": true
   },
   {
     "name": "FrontendMasters",
     "short_description": "6 months free access to all courses and workshops.",
-    "link": "mailto:support@frontendmasters.com"
+    "link": "mailto:support@frontendmasters.com",
+    "priority": true,
   },
   {
     "name": "Testmail",
@@ -164,7 +182,8 @@ export const resources = [
   {
     "name": "GitHub Codespaces",
     "short_description": "Free Pro level access for cloud-based development.",
-    "link": "https://support.github.com/features/codespaces"
+    "link": "https://support.github.com/features/codespaces",
+    "priority": true
   },
   {
     "name": "Bootstrap Studio",
@@ -179,7 +198,8 @@ export const resources = [
   {
     "name": "GitHub Pages",
     "short_description": "Free hosting for static sites.",
-    "link": "https://support.github.com/contact"
+    "link": "https://support.github.com/contact",
+    "priority": true
   },
   {
     "name": "Datadog",
@@ -189,7 +209,8 @@ export const resources = [
   {
     "name": "Scrimba",
     "short_description": "1 month access to Scrimba Pro courses.",
-    "link": "mailto:help@scrimba.com"
+    "link": "mailto:help@scrimba.com",
+    "priority": true,
   },
   {
     "name": "MS Visual Studio Dev Essentials",
@@ -204,7 +225,8 @@ export const resources = [
   {
     "name": "Stripe",
     "short_description": "Waived transaction fees on first $1000.",
-    "link": "https://support.stripe.com/"
+    "link": "https://support.stripe.com/",
+    "priority": true,
   },
   {
     "name": "Appwrite",
@@ -294,7 +316,8 @@ export const resources = [
   {
     "name": "Bump.sh",
     "short_description": "Free Standard plan for API doc management.",
-    "link": "https://bump.sh/#support"
+    "link": "https://bump.sh/#support",
+    "priority": true,
   },
   {
     "name": "Octicons",
@@ -490,18 +513,19 @@ export const resources = [
     "name": "AWS",
     "short_description": "Free access to AWS Educate content & services, up to $100 in credits.",
     "link": "https://aws.amazon.com/education/awseducate/",
+    "priority": true,
   },
   {
     "name": "Canva",
     "short_description": "Free access to all Canva Pro features (Canva for Education).",
     "link": "https://www.canva.com/en_in/education/",
-
+    "priority": true,
   },
   {
     "name": "Figma",
     "short_description": "Free access to Figma and FigJam features (Education Plan).",
     "link": "https://www.figma.com/education/",
-
+    "priority": true,
   },
   {
     "name": "Swiggy",
@@ -525,12 +549,7 @@ export const resources = [
     "name": "Gemini",
     "short_description": "1-month trial of Google AI Pro (Deep Research, Audio Overviews, 2TB storage).",
     "link": "https://gemini.google/students/",
-
+    "priority": true,
   },
-  {
-    "name": "Perplexity",
-    "short_description": "1 month free Perplexity Pro + earn up to 24 months through referrals.",
-    "link": "https://plex.it/referrals/780P0SBF",
-    "additional": true
-  }
+  
 ]

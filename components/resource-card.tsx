@@ -12,6 +12,7 @@ interface ResourceCardProps {
     short_description: string;
     link: string;
     additional?: boolean;
+    priority?: boolean;
   };
 }
 
@@ -35,6 +36,7 @@ function getFaviconUrl(domain: string): string {
 export function ResourceCard({ resource }: ResourceCardProps) {
   const domain = getDomain(resource.link);
   const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
     <motion.div
@@ -48,17 +50,26 @@ export function ResourceCard({ resource }: ResourceCardProps) {
         <CardHeader className="pb-4">
           <div className="flex items-center gap-3 mb-2">
             <div className="relative w-12 h-12 rounded-lg overflow-hidden bg-muted flex items-center justify-center shrink-0">
-              {!imageError ? (
+              {/* Show first letter while loading or on error */}
+              {(!imageLoaded || imageError) && (
+                <span className="absolute inset-0 flex items-center justify-center text-lg font-bold text-primary z-10">
+                  {resource.name.charAt(0).toUpperCase()}
+                </span>
+              )}
+              {/* Show image when loaded and no error */}
+              {!imageError && (
                 <img
                   src={getFaviconUrl(domain)}
                   alt={resource.name}
-                  className="w-full h-full object-cover"
-                  onError={() => setImageError(true)}
+                  className={`w-full h-full object-cover transition-opacity duration-200 ${
+                    imageLoaded ? "opacity-100" : "opacity-0"
+                  }`}
+                  onLoad={() => setImageLoaded(true)}
+                  onError={() => {
+                    setImageError(true);
+                    setImageLoaded(false);
+                  }}
                 />
-              ) : (
-                <span className="text-lg font-bold text-primary">
-                  {resource.name.charAt(0).toUpperCase()}
-                </span>
               )}
             </div>
             <CardTitle className="text-lg leading-tight">{resource.name}</CardTitle>
