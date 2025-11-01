@@ -54,3 +54,483 @@ export const thoughts = [
     "content": "Multimodal AI represents a breakthrough in artificial intelligence where a single model can process and seamlessly integrate information from multiple modalities, such as text, images, video, audio, and code. This capability moves AI closer to human-level contextual understanding, where information is rarely siloed into a single format.\n\nFor developers and engineers, this has several powerful applications. A multimodal model can: **1) Analyze a user interface screenshot (image) and generate the corresponding HTML/CSS/JavaScript code (text/code). 2) Interpret a flow diagram or whiteboard sketch (image) and translate it into a software architecture description or API endpoints (text). 3) Accept an audio command and execute a code change, providing a visual confirmation of the diff.**\n\nThis unification of data types is particularly significant for creating richer, more personalized user experiences. Applications can now understand context not just from a user's text input, but also from their visual data, like an image they upload or a scene captured by a device camera. This depth of understanding enables more accurate search results, more intuitive digital assistants, and a faster path from design to functional code. As multimodal models become more powerful, they will become the central hub for interaction, data analysis, and creative content generation across all technological domains."
   }
 ];
+
+export const resources = [
+  {
+    "name": "GitHub Copilot",
+    "short_description": "Free access to Copilot Pro.",
+    "link": "https://github.com/orgs/community/discussions/categories/copilot"
+  },
+  {
+    "name": "Namecheap",
+    "short_description": "1 year .me domain & SSL certificate free.",
+    "link": "https://www.namecheap.com/support.aspx"
+  },
+  {
+    "name": "DigitalOcean",
+    "short_description": "$200 platform credit for 1 year.",
+    "link": "https://www.digitalocean.com/company/contact/"
+  },
+  {
+    "name": "Name.com",
+    "short_description": "Free project domain (25+ TLD options).",
+    "link": "https://www.name.com/support-ticket"
+  },
+  {
+    "name": "Microsoft Azure",
+    "short_description": "25+ Azure services + $100 credit.",
+    "link": "https://azure.microsoft.com/en-us/support/options/"
+  },
+  {
+    "name": "Notion",
+    "short_description": "Education plan + AI.",
+    "link": "https://www.notion.so/help"
+  },
+  {
+    "name": "JetBrains",
+    "short_description": "Free annual subscription to IDEs.",
+    "link": "https://intellij-support.jetbrains.com/hc/en-us"
+  },
+  {
+    "name": "GitHub Pro",
+    "short_description": "Free GitHub Pro.",
+    "link": "https://github.com/contact"
+  },
+  {
+    "name": "Codedex",
+    "short_description": "6 months of Codedex Club membership.",
+    "link": "https://codedex.notion.site/Welcome-to-the-Cod-dex-Help-Center-c8afe2966ea9490d9377bce826d22eb7"
+  },
+  {
+    "name": ".TECH Domain",
+    "short_description": "Free standard .TECH domain for 1 year.",
+    "link": "mailto:techsquad@get.tech"
+  },
+  {
+    "name": "Heroku",
+    "short_description": "$13/month credit for 24 months.",
+    "link": "https://help.heroku.com/"
+  },
+  {
+    "name": "DataCamp",
+    "short_description": "3 months free access with GitHub Student account.",
+    "link": "https://support.datacamp.com/hc/en-us"
+  },
+  {
+    "name": "Educative",
+    "short_description": "6 months free access to 70+ courses.",
+    "link": "mailto:github-students@educative.io"
+  },
+  {
+    "name": "MongoDB",
+    "short_description": "$50 in Atlas credits, Compass, Uni cert free.",
+    "link": "https://www.mongodb.com/community/forums/c/academia/students/42"
+  },
+  {
+    "name": "VS Code",
+    "short_description": "Coding packs for Java, Python, and .NET.",
+    "link": "https://visualstudio.microsoft.com/support/"
+  },
+  {
+    "name": "FrontendMasters",
+    "short_description": "6 months free access to all courses and workshops.",
+    "link": "mailto:support@frontendmasters.com"
+  },
+  {
+    "name": "Testmail",
+    "short_description": "Free Essential plan for automated email testing.",
+    "link": "mailto:support@testmail.app"
+  },
+  {
+    "name": "Camber",
+    "short_description": "Free student plan: 200CPU hrs, 75GB storage monthly.",
+    "link": "https://cambercloudcommunity.slack.com/join/shared_invite/zt-2nveiufw5-y~lolMoHcsvnsCtiq8XVTw#/shared-invite/email"
+  },
+  {
+    "name": "Termius",
+    "short_description": "Pro and Team SSH client features.",
+    "link": "mailto:education@termius.com"
+  },
+  {
+    "name": "Notion Templates",
+    "short_description": "Template collection for collaboration, hackathons.",
+    "link": "https://www.notion.so/help"
+  },
+  {
+    "name": "PomoDone",
+    "short_description": "PomoDone Lite free for 2 years.",
+    "link": "mailto:edu.support@pomodoneapp.com"
+  },
+  {
+    "name": "GitHub Codespaces",
+    "short_description": "Free Pro level access for cloud-based development.",
+    "link": "https://support.github.com/features/codespaces"
+  },
+  {
+    "name": "Bootstrap Studio",
+    "short_description": "Free license for Bootstrap Studio desktop app.",
+    "link": "https://bootstrapstudio.io/contact-us"
+  },
+  {
+    "name": "LocalStack",
+    "short_description": "Free license to AWS emulator.",
+    "link": "https://www.localstack.cloud/contact"
+  },
+  {
+    "name": "GitHub Pages",
+    "short_description": "Free hosting for static sites.",
+    "link": "https://support.github.com/contact"
+  },
+  {
+    "name": "Datadog",
+    "short_description": "Pro Account (10 servers) 2 years free.",
+    "link": "mailto:studentpack@datadoghq.com"
+  },
+  {
+    "name": "Scrimba",
+    "short_description": "1 month access to Scrimba Pro courses.",
+    "link": "mailto:help@scrimba.com"
+  },
+  {
+    "name": "MS Visual Studio Dev Essentials",
+    "short_description": "Free developer tools, training, cloud services.",
+    "link": "https://visualstudio.microsoft.com/vs/support/#talktous"
+  },
+  {
+    "name": "1Password",
+    "short_description": "Free for a year, includes Developer Tools.",
+    "link": "mailto:support@agilebits.com"
+  },
+  {
+    "name": "Stripe",
+    "short_description": "Waived transaction fees on first $1000.",
+    "link": "https://support.stripe.com/"
+  },
+  {
+    "name": "Appwrite",
+    "short_description": "Free Education plan (equivalent to Pro).",
+    "link": "https://appwrite.io/discord"
+  },
+  {
+    "name": "GitHub Campus Experts",
+    "short_description": "Apply for Campus Experts program.",
+    "link": "https://support.github.com/contact"
+  },
+  {
+    "name": "ToDiagram",
+    "short_description": "Pro Plan with advanced diagram editing features.",
+    "link": "mailto:contact@todiagram.com"
+  },
+  {
+    "name": "IconScout",
+    "short_description": "60 premium icons free per month.",
+    "link": "mailto:support@iconscout.com"
+  },
+  {
+    "name": "GitLens",
+    "short_description": "Free student plan for advanced Git VS Code extension.",
+    "link": "https://help.gitkraken.com/gitlens/gitlens-home/"
+  },
+  {
+    "name": "BrowserStack",
+    "short_description": "Automate Mobile Plan for 1 year.",
+    "link": "https://www.browserstack.com/contact"
+  },
+  {
+    "name": "Visme",
+    "short_description": "3 months Starter plan for visual presentations.",
+    "link": "https://support.visme.co/#contact_us_footer"
+  },
+  {
+    "name": "HazeOver",
+    "short_description": "Free Mac license for focus software.",
+    "link": "https://hazeover.com/contact.html"
+  },
+  {
+    "name": "Deepnote",
+    "short_description": "Free Team plan for cloud data notebooks.",
+    "link": "mailto:help@deepnote.com"
+  },
+  {
+    "name": "Arduino",
+    "short_description": "Free Arduino Cloud for 6 months + hardware discounts.",
+    "link": "https://www.arduino.cc/education/contact-us"
+  },
+  {
+    "name": "Icons8",
+    "short_description": "3 months free subscription (icons, photos, illustrations).",
+    "link": "https://icons8.com/contact"
+  },
+  {
+    "name": "Polypane",
+    "short_description": "Free use of Polypane individual plan for 1 year.",
+    "link": "https://polypane.app/support"
+  },
+  {
+    "name": "AlgoExpert",
+    "short_description": "Free access to 20 coding interview questions + 10% discount.",
+    "link": "https://www.algoexpert.io/help?v=MiscellaneousBug"
+  },
+  {
+    "name": "GitKraken",
+    "short_description": "Student plan: Free 6 months, then up to 80% off Pro.",
+    "link": "https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/"
+  },
+  {
+    "name": "Blackfire",
+    "short_description": "Free developer subscription for code bottleneck diagnostics.",
+    "link": "mailto:student@blackfire.io"
+  },
+  {
+    "name": "New Relic",
+    "short_description": "Free for students ($300/month value).",
+    "link": "mailto:students@newrelic.com"
+  },
+  {
+    "name": "GoRails",
+    "short_description": "Free access to Ruby, Rails, JS lessons for 12 months.",
+    "link": "mailto:chris@gorails.com"
+  },
+  {
+    "name": "Bump.sh",
+    "short_description": "Free Standard plan for API doc management.",
+    "link": "https://bump.sh/#support"
+  },
+  {
+    "name": "Octicons",
+    "short_description": "GitHub open source icon library (Figma).",
+    "link": "https://support.github.com/"
+  },
+  {
+    "name": "CodeScene",
+    "short_description": "Free Student account for code analytics.",
+    "link": "mailto:info@empear.com"
+  },
+  {
+    "name": "Sentry",
+    "short_description": "Free error & transaction monitoring.",
+    "link": "https://forum.sentry.io/"
+  },
+  {
+    "name": "LambdaTest",
+    "short_description": "Free Live Plan for cross-browser testing.",
+    "link": "mailto:support@lambdatest.com"
+  },
+  {
+    "name": "Pageclip",
+    "short_description": "Free basic plan for static websites/forms.",
+    "link": "mailto:support@pageclip.co"
+  },
+  {
+    "name": "Zyte (Scrapy Cloud)",
+    "short_description": "1 Free Forever Scrapy Cloud Unit.",
+    "link": "mailto:support@zyte.com"
+  },
+  {
+    "name": "Requestly",
+    "short_description": "Pro plan free for 1 year (API testing tools).",
+    "link": "https://www.browserstack.com/contact"
+  },
+  {
+    "name": "Travis CI",
+    "short_description": "Free private builds.",
+    "link": "http://docs.travis-ci.com/imprint.html"
+  },
+  {
+    "name": "PopSQL",
+    "short_description": "Free Premium subscription for modern SQL editor.",
+    "link": "mailto:students@popsql.com"
+  },
+  {
+    "name": "InterviewCake",
+    "short_description": "Full course 1 week access for interview prep.",
+    "link": "mailto:yourfriends@interviewcake.com"
+  },
+  {
+    "name": "Imgbot",
+    "short_description": "Free image optimization for public/private projects.",
+    "link": "mailto:help@imgbot.net"
+  },
+  {
+    "name": "GitHub Desktop",
+    "short_description": "Open source GitHub client, free for all.",
+    "link": "https://help.github.com/desktop/guides/"
+  },
+  {
+    "name": "GitHub Community Exchange",
+    "short_description": "Community, collaboration resources.",
+    "link": "https://support.github.com/request/education"
+  },
+  {
+    "name": "Tower",
+    "short_description": "Free Tower Pro license (Git client).",
+    "link": "mailto:support@git-tower.com"
+  },
+  {
+    "name": "SlideCoach",
+    "short_description": "2,000 credits for AI presentation coaching.",
+    "link": "https://www.slidecoach.ai/en/support"
+  },
+  {
+    "name": "Adafruit",
+    "short_description": "One year Adafruit IO+ and hardware discounts.",
+    "link": "https://www.adafruit.com/support"
+  },
+  {
+    "name": "Doppler",
+    "short_description": "Free Doppler Team subscription for secret management.",
+    "link": "mailto:support@doppler.com"
+  },
+  {
+    "name": "WorkingCopy",
+    "short_description": "All Pro features of iOS Git client free.",
+    "link": "mailto:anders@workingcopy.app"
+  },
+  {
+    "name": "SQLGate",
+    "short_description": "Standard features for 1 year (SQL IDE).",
+    "link": "https://support.sqlgate.com/hc/en-us/requests/new"
+  },
+  {
+    "name": "Xojo",
+    "short_description": "Cross-platform dev tool Pro license free.",
+    "link": "mailto:hello@xojo.com"
+  },
+  {
+    "name": "DailyBot",
+    "short_description": "Business plan free for 10 users for 6 months.",
+    "link": "https://help.dailybot.com/hc/en-us"
+  },
+  {
+    "name": "Cryptolens",
+    "short_description": "10 licenses, unlimited users for student software.",
+    "link": "mailto:student@cryptolens.io"
+  },
+  {
+    "name": "CARTO",
+    "short_description": "Free upgrades & features for 2 years (spatial data).",
+    "link": "https://carto.com/help/getting-started/student-accounts"
+  },
+  {
+    "name": "Codecov",
+    "short_description": "Free code coverage for public/private repos.",
+    "link": "mailto:education@codecov.io"
+  },
+  {
+    "name": "Honeybadger",
+    "short_description": "Free Small account 1 year for monitoring.",
+    "link": "mailto:support@honeybadger.io"
+  },
+  {
+    "name": "Vaadin",
+    "short_description": "Free Pro license for Java PWAs.",
+    "link": "mailto:edu@vaadin.com"
+  },
+  {
+    "name": "POEditor",
+    "short_description": "Plus Plan for localization, free for one year.",
+    "link": "https://poeditor.com/contact/"
+  },
+  {
+    "name": "ConfigCat",
+    "short_description": "1000 feature flags for unlimited users (free).",
+    "link": "https://configcat.com/support/contactus"
+  },
+  {
+    "name": "SymfonyCasts",
+    "short_description": "3 months free subscription for Symfony, PHP.",
+    "link": "https://symfonycasts.com/contact"
+  },
+  {
+    "name": "Blockchair",
+    "short_description": "100,000 free API requests (blockchain data).",
+    "link": "https://blockchair.com/about"
+  },
+  {
+    "name": "DevCycle",
+    "short_description": "Starter Plan free for 1 year (feature flags).",
+    "link": "mailto:education@devcycle.com"
+  },
+  {
+    "name": "Dashlane",
+    "short_description": "Free Premium plan for 6 months (password manager).",
+    "link": "https://support.dashlane.com/"
+  },
+  {
+    "name": "DeepScan",
+    "short_description": "6 months free trial (JS app reliability).",
+    "link": "https://deepscan.io/contact"
+  },
+  {
+    "name": "Themeisle",
+    "short_description": "Neve Agency WordPress theme free for 1 year.",
+    "link": "https://themeisle.com/contact/"
+  },
+  {
+    "name": "AstraSecurity",
+    "short_description": "6 months access to website firewall & malware scanner.",
+    "link": "mailto:help+github@getastra.com"
+  },
+  {
+    "name": "Appfigures",
+    "short_description": "Free access to analytics & performance for 1 year.",
+    "link": "https://appfigures.com/support/contact"
+  },
+  {
+    "name": "SimpleAnalytics",
+    "short_description": "Starter plan free for 1 year (web analytics).",
+    "link": "https://simpleanalytics.com/contact"
+  },
+  {
+    "name": "GitHub Certification",
+    "short_description": "One free voucher code for Foundations or Copilot Exam.",
+    "link": "https://support.github.com/contact-next?tags=hh-ace-support"
+  },
+  {
+    "name": "AWS",
+    "short_description": "Free access to AWS Educate content & services, up to $100 in credits.",
+    "link": "https://aws.amazon.com/education/awseducate/",
+  },
+  {
+    "name": "Canva",
+    "short_description": "Free access to all Canva Pro features (Canva for Education).",
+    "link": "https://www.canva.com/en_in/education/",
+
+  },
+  {
+    "name": "Figma",
+    "short_description": "Free access to Figma and FigJam features (Education Plan).",
+    "link": "https://www.figma.com/education/",
+
+  },
+  {
+    "name": "Swiggy",
+    "short_description": "Exclusive discounts and free delivery benefits (Student Rewards Program, India).",
+    "link": "https://blog.swiggy.com/swiggy-catalyst/sign-up-for-the-swiggy-student-rewards-program-with-your-college-id-card-now/",
+    "additional": true
+  },
+  {
+    "name": "Samsung",
+    "short_description": "Special pricing/discounts via a dedicated student store (India).",
+    "link": "https://www.samsung.com/in/offer/student-discount/",
+    "additional": true
+  },
+  {
+    "name": "Apple",
+    "short_description": "Special pricing on Mac, iPad, and accessories (Education Store, India).",
+    "link": "https://www.apple.com/in-edu/store",
+    "additional": true
+  },
+  {
+    "name": "Gemini",
+    "short_description": "1-month trial of Google AI Pro (Deep Research, Audio Overviews, 2TB storage).",
+    "link": "https://gemini.google/students/",
+
+  },
+  {
+    "name": "Perplexity",
+    "short_description": "1 month free Perplexity Pro + earn up to 24 months through referrals.",
+    "link": "https://plex.it/referrals/780P0SBF",
+    "additional": true
+  }
+]
