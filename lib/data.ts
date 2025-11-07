@@ -63,6 +63,30 @@ export const resources = [
     "priority": true
   },
   {
+    "name": "Convex",
+    "short_description": "Realtime backend platform with TypeScript-first DX.",
+    "link": "https://www.convex.dev/",
+    "priority": true
+  },
+  {
+    "name": "Convex Chef",
+    "short_description": "AI-powered scaffolding tool for Convex projects.",
+    "link": "https://chef.convex.dev/",
+    "priority": true
+  },
+  {
+    "name": "Google AI Studio",
+    "short_description": "Build and launch Gemini-powered AI apps quickly.",
+    "link": "https://aistudio.google.com/apps",
+    "priority": true
+  },
+  {
+    "name": "Context7",
+    "short_description": "Library-aware AI assistant for developer workflows.",
+    "link": "https://context7.com/",
+    "priority": true
+  },
+  {
     "name": "Namecheap",
     "short_description": "1 year .me domain & SSL certificate free.",
     "link": "https://www.namecheap.com/support.aspx",
